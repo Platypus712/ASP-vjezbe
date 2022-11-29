@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadatak-5</title>
+  </head>
+  <body>
+    <form action="pošalji" method="post">
+      <label for="ime">Unesite Vaš ime:</label>
+      <input type="text" name="ime" id="ime" />
+      <br />
+      <label for="prezime">Unesite Vaš prezime:</label>
+      <input type="text" name="prezime" id="prezime" />
+      <br />
+      <label for="adresa">Unesite Vašu adresu:</label>
+      <input type="text" name="adresa" id="adresa" />
+      <br />
+      <label for="izbor-poklona">Izaberite neki od poklona</label>
+      <input type="checkbox" name="izbor-poklona" id="izbor-poklona" />Torba
+      <input type="checkbox" name="izbor-poklona" id="izbor-poklona" />Kišobran
+      <br />
+      <label for="izbor-boje">Izaberite po želji boju Vašeg poklona:</label>
+      <select name="izbor-boje" id="izbor-boje">
+        <option value="">Plava</option>
+        <option value="">Crvena</option>
+        <option value="">Zelena</option>
+      </select>
+      <br />
+      <label for="dostava">Želite li brzu dostavu?</label>
+      <input type="radio" name="dostava" id="dostava" />DA
+      <input type="radio" name="dostava" id="dostava" />NE
+      <br />
+      <button type="submit">Naruči</button>
+    </form>
+  </body>
+</html>

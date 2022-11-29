@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs"
+    Inherits="ZajednickiPredlozak.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/Stranica-1.aspx">Home</asp:HyperLink>
+            &nbsp;
+            <asp:HyperLink ID="hlAbout" runat="server" NavigateUrl="~/Stranica-2.aspx">About</asp:HyperLink>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

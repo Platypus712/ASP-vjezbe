@@ -1,0 +1,22 @@
+h1{
+  color: blue;
+}
+.p1{
+  color:  red;
+  background-color: yellow;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 25px;
+}
+.p2{
+  color:  yellow;
+  background-color: green;
+  border: 2px solid blue;
+  font-size: 15px;
+}
+.p3{
+  color:  purple;
+  background-color: gray;
+  border: 3px solid red;
+  font-size: 5px;
+}
